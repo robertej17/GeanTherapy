@@ -30,8 +30,8 @@ echo IN HOME DIRECTORY
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
-
-pushd gluex_top
+cd ..
+pushd GeanTherapy
 
 pwd_string=`pwd`
 export GLUEX_TOP=$pwd_string
